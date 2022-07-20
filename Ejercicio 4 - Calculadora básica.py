@@ -86,9 +86,9 @@ while True:
                 else:
                     
                     print(f"Suma: {ns1} + {ns2} = {rs}")     
-                    print(f"Resta: {nr1} + {nr2} = {rr}")
-                    print(f"Multiplicación: {nm1} + {nm2} = {rm}")
-                    print(f"División: {nd1} + {nd2} = {rd} \n")
+                    print(f"Resta: {nr1} - {nr2} = {rr}")
+                    print(f"Multiplicación: {nm1} * {nm2} = {rm}")
+                    print(f"División: {nd1} / {nd2} = {rd} \n")
                     de = int(input("\n¿Desea eliminar el historial? \n1 = Si    2 = No : "))
                     if de == 1:
                         ns1.clear()
