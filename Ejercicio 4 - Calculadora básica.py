@@ -1,6 +1,6 @@
 #Ejercicio 4 - Calculadora básica
 import os
-#Lista
+#Listas
 ns1=[] 
 ns2=[]
 nr1=[]
@@ -35,7 +35,7 @@ while True:
                 print("---------- Suma ----------\n")
                 n_1 = float(input("Ingresa el primer número: "))
                 ns1.append(n_1)
-                n_2 = float(input("Ingresa el primer número: "))
+                n_2 = float(input("Ingresa el segundo número: "))
                 ns2.append(n_2)
                 r_s = n_1 + n_2
                 rs.append(r_s,)
@@ -47,7 +47,7 @@ while True:
                 print("---------- Resta ----------\n")
                 n_1 = float(input("Ingresa el primer número: "))
                 nr1.append(n_1)
-                n_2 = float(input("Ingresa el primer número: "))
+                n_2 = float(input("Ingresa el segundo número: "))
                 nr2.append(n_2)
                 r_r = n_1 - n_2
                 rr.append(r_r)
@@ -59,7 +59,7 @@ while True:
                 print("---------- Multiplicación ----------\n")
                 n_1 = float(input("Ingresa el primer número: "))
                 nm1.append(n_1)
-                n_2 = float(input("Ingresa el primer número: "))
+                n_2 = float(input("Ingresa el segundo número: "))
                 nm2.append(n_2)
                 r_m = n_1 * n_2
                 rm.append(r_m)
@@ -71,7 +71,7 @@ while True:
                 print("---------- División ----------\n")
                 n_1 = float(input("Ingresa el primer número: "))
                 nd1.append(n_1)
-                n_2 = float(input("Ingresa el primer número: "))
+                n_2 = float(input("Ingresa el segundo número: "))
                 nd2.append(n_2)
                 r_d = n_1 / n_2
                 rd.append(r_d)
