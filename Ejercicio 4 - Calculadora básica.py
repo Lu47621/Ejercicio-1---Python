@@ -26,7 +26,7 @@ while True:
         print("3. Mulitplicación")
         print("4. División")
         print("5. Historial \n")
-        opcion = input("\nIngrese la opcion a realizar: ")
+        opcion = input("\nIngrese la opción a realizar: ")
         op = int(opcion)
         if op >=1 and op <=5:
             
