@@ -3,8 +3,8 @@
 # aplicar, y devolver el total de la factura. 
 # Si se invoca la función sin pasarle el porcentaje de IVA, deberá aplicar un 16%
 
-def fac_iva(sin_iva, iva=16): #sin_iva --> la cantidad sin IVA        iva -->porcentaje de IVA
+def fac_iva(sin_iva, iva = 16): #sin_iva --> la cantidad sin IVA        iva -->porcentaje de IVA
     return sin_iva + sin_iva*iva/100
 
-print(fac_iva(1600,8))
+print(fac_iva(1600, 8))
 print(fac_iva(1600))
